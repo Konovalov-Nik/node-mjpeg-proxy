@@ -7,3 +7,4 @@ RUN npm install mjpeg-proxy
 
 COPY app.js ./
 
+CMD node app.js
